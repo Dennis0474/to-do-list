@@ -1,0 +1,39 @@
+body {
+  font-family: Arial;
+  background-image: url(https://plus.unsplash.com/premium_vector-1717511155337-6ed3d51bc2d8?q=80&w=580&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 50%;
+}
+
+input {
+  width: 250px;
+  height: 25px;
+  padding: 4px 6px;
+  font-size: 15px;
+  border: 1px solid rgb(230, 225, 225);
+  border-radius: 8px;
+  box-shadow: 3px 3px 5px 0.15;
+}
+
+.add-task-btn {
+  background-color: #4caf50;
+  color: #fff;
+  margin-left: 5px;
+  padding: 10px 15px;
+  font-size: 14px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+
+
+
+
+
