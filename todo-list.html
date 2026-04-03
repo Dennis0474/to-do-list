@@ -3,20 +3,47 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="todo-list.css" />
+    <link rel="stylesheet" href="css/todo-list.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
     />
-    <title>To-Do List</title>
+    <title>ToDo-List App</title>
   </head>
   <body>
-    <div class="input-card">
-      <input class="input.js" type="text" placeholder="Enter Todo Task" />
+    <div class="todo-app">
+      <h1>Smart Todo List</h1>
+      <div class="input-container">
+        <input
+          class="task-input"
+          id="task-input"
+          type="text"
+          placeholder="Enter a Task"
+        />
+        <input type="date" id="task-due-date" />
+        <button class="add-task-btn" id="add-task-btn">Add Task</button>
+      </div>
+      <div class="filter filters">
+        <button id="filter-btn" data-filter="all">All</button>
+        <button id="filter-btn" data-filter="active">Active</button>
+        <button id="filter-btn" data-filter="completed">Completed</button>
+      </div>
+
+      <input
+        type="text"
+        class="search-input"
+        id="search-input"
+        placeholder="Search tasks..."
+      />
+      <p class="taskcounter" id="task-counter"></p>
+      <ul id="task-list"></ul>
+      <button class="clearcompleted" id="clear-completed">
+        Clear Completed
+      </button>
+      <button class="dark-mode-togg" id="dark-mode-toggle">
+        Toggle Dark Mode
+      </button>
     </div>
-    <button class="add-task-btn add-task-btn-js">
-      <i class="fa-solid fa-plus"></i> Add
-    </button>
   </body>
-  <script src="todo-list.js"></script>
+  <script src="js/todo-list.js"></script>
 </html>

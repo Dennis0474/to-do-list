@@ -1,0 +1,180 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(https://plus.unsplash.com/premium_vector-1717511155337-6ed3d51bc2d8?q=80&w=580&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.todo-app {
+  background: #fff;
+  padding: 25px;
+  width: 500px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.todo-app h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.input-container {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.task-input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.add-task-btn {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 5px;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.add-task-btn:hover {
+  background: #43a047;
+  transform: scale(1.05);
+}
+
+.filter {
+  width: 200px;
+  height: 30px;
+}
+
+#filter-btn {
+  background-color: rgb(2, 150, 248);
+  color:white;
+  padding: 4px 8px;
+  margin-bottom: 80px;
+  font-size: 15px;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+}
+
+.search-input {
+  padding: 2px 4px;
+  font-size: 13px;
+  border: 1px solid #ccc;
+  width: 44%;
+}
+
+.taskcounter {
+  font-size: 15px;
+  margin-top: 3px;
+}
+
+body.dark-mode {
+  background-color: #121212;
+  color: #f0f0f0;
+}
+
+body.dark-mode .todo-app{
+background: linear-gradient(45deg, #434343, #000000);
+}
+
+.task-list {
+  list-style: none;
+}
+
+.task {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 10px;
+border-bottom: 1px solid #eee;
+font-size: 18px;
+}
+
+.empty {
+  text-align: center;
+  color: #888;
+  font-style: italic;
+  font-size: 15px;
+}
+
+.edit-btn {
+  background-color: #FF8C00;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  border: none;
+  padding: 4px 8px;
+  margin-left: 8px;
+  border-radius: 4px;
+}
+
+.edit-btn:hover {
+background-color: #45a049;
+}
+
+.delete-btn {
+  background-color: rgb(250, 0, 0);
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  border: none;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+.clearcompleted {
+  background-color: #6C757d;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  margin-top: 5px;
+  padding: 4px 8px;
+}
+
+.clearcompleted:hover {
+background-color: #5A6268;
+}
+
+.dark-mode-togg {
+  background: linear-gradient(45deg, #1e3c72, #2a5298);
+  color: white;
+  border: none;
+  padding: 4px 8px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.dark-mode-togg:hover {
+  background: linear-gradient(45deg, #2a5298, #1e3c72);
+}
+
+.completed {
+  text-decoration: line-through;
+  color: grey;
+}
+
+
+
+
+
