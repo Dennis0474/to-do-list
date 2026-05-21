@@ -1,3 +1,5 @@
+
+
 # To-Do List App
 A simple task manager built with HTML, CSS and JavaScript.
 
@@ -21,3 +23,6 @@ A simple task manager built with HTML, CSS and JavaScript.
 
 # Author 
 Dennis
+
+## 📫 Contact
+- Email: dennisegheosaomoyibo@gmail.com
